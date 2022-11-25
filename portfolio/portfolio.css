@@ -14,8 +14,6 @@ header>a{
     font-size: 80px;
 }
 
-
-
 @media screen and (min-width: 700px){
     .nothing{
         font-size: 40px;

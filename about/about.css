@@ -10,7 +10,6 @@ header{
     z-index: -10;
 }
 
-
 .background>picture>img{
     display:flex;
     position: absolute;
