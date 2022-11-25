@@ -9,6 +9,7 @@
   width:80%;
   background-color: #ffd900;
 }
+
 form{
   display: flex;
   flex-direction: column;
