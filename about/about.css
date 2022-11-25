@@ -1,0 +1,68 @@
+header{
+    z-index: 11;
+}
+.page{
+    display: block;
+    position:fixed;
+    background-color: black;
+    height: 100%;
+    width:100%;
+    z-index: -10;
+}
+
+.background>picture>img{
+    display:flex;
+    position: absolute;
+    width:100%;
+    background-color: black;
+    left:0px;
+    z-index: -1;
+}
+
+article{
+    display: block;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.436);
+    padding-bottom: 60vh;
+}
+
+.bio{
+    z-index: 10;
+    color:white;
+    line-height: 4vh;
+    padding-top: 30vh
+}
+
+@media screen and (min-width: 430px) and (max-width:629px){
+    article{
+        margin-top: 10vw;
+    }
+    background>picture>img{
+        height: 120vh;
+     }
+     
+}
+
+@media screen and (min-width: 630px) and (max-width:849px){
+    
+    article{
+        margin-top: 10vw;
+    }
+    background>picture>img{
+       height: 120vh;
+    }
+     
+}
+@media screen and (min-width: 850px){
+    article{
+        height: 100vh;
+        width:100%;
+        margin-top: 10vw;
+        padding: 0 17vw 0 17vw;
+    }
+   
+     .background>picture>img{
+        height: 120%;
+        object-fit: contain;
+     }
+}

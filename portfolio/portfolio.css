@@ -1,0 +1,30 @@
+header{
+    height: auto;
+}
+
+header>a{
+    font-size: 80px;
+}
+.nothing{
+    margin-top: 300px;
+    font-size: 80px;
+}
+
+.portfolio-btn{
+    font-size: 80px;
+}
+
+
+@media screen and (min-width: 700px){
+    .nothing{
+        font-size: 40px;
+    }
+
+    .portfolio-btn{
+        font-size: 40px;
+    }
+
+    header>a{
+        font-size:50px;
+    }
+}

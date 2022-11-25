@@ -1,0 +1,38 @@
+
+.form-header{
+  display:flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 200px;
+  padding-bottom: 20px;
+  border: 5px solid black;
+  width:80%;
+  background-color: #ffd900;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid black;
+  margin-top: 50px;
+  width:80%;
+  background-color: #ffd900;
+  margin-bottom: 40px;
+}
+
+input{
+ margin-top: 30px;
+ min-width: 60px;
+ width:50%
+}
+
+textarea{
+  width:50%;
+  min-width: 60px;
+  min-height: 140px;
+}
+
+form>button{
+  padding:0;
+  width:50%;
+}
